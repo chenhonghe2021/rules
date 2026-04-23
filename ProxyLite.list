@@ -1,14 +1,14 @@
 # 代理列表说明
-# DOMAIN-SUFFIX：20
+# DOMAIN-SUFFIX：21
 # DOMAIN-KEYWORD：1
 # IP-CIDR：9
 # DOMAIN：3
 
-# TOTAL: 33
-# 总数量：33条
+# TOTAL: 34
+# 总数量：34条
 
 # 域名后缀匹配
-# 数量：7条
+# 数量：8条
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,karing.app
 DOMAIN-SUFFIX,translate.brave.com
@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,huangsecangku.net
 DOMAIN-SUFFIX,hsck.la
 DOMAIN-SUFFIX,netflav5.com
 DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,firebase.studio
 
 # 域名关键字匹配
 # 数量：1条
