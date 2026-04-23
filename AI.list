@@ -1,7 +1,7 @@
 # 内容：OpenAi Bard anthropic
-# DOMAIN-SUFFIX: 25
+# DOMAIN-SUFFIX: 26
 # DOMAIN-KEYWORD: 4
-# TOTAL: 29
+# TOTAL: 30
 # 域名关键字匹配
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,anthropic
@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
