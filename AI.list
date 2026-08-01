@@ -3,35 +3,52 @@
 # DOMAIN-KEYWORD: 4
 # TOTAL: 30
 # 域名关键字匹配
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,Claude
-# 微软copilot
-DOMAIN-KEYWORD,copilot
 # 域名后缀匹配
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
+
+# ChatGPT / OpenAI
+DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,makersuite.google.com
+
+# Claude / Anthropic
+DOMAIN-KEYWORD,anthropic
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+
+# Microsoft Copilot
+DOMAIN-KEYWORD,copilot
 DOMAIN-SUFFIX,copilot.microsoft.com
+
+# Bard / Gemini / Google AI
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,ai.google.dev
+
+# Google AI API（最关键）
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,content.googleapis.com
+DOMAIN-SUFFIX,upload.googleapis.com
+
+# Google 认证与资源
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+
+# Grok / DeepInfra / DuckDuckGo AI
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,deepinfra.com
 DOMAIN-SUFFIX,duckduckgo.com
+
+# Cloudflare 验证
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
